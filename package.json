@@ -1,0 +1,36 @@
+{
+    "name": "@whatsup-js/cli",
+    "version": "0.1.0",
+    "description": "Tooling for creation Whatsup application",
+    "main": "dist/index.cjs.js",
+    "scripts": {
+        "start": "npm run build && node ./bin/whatsup",
+        "build": "tsc -p ."
+    },
+    "bin": {
+        "whatsup": "./bin/whatsup"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/whatsup/cli.git"
+    },
+    "author": "André Lins",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/whatsup/cli/issues"
+    },
+    "homepage": "https://github.com/whatsup/cli#readme",
+    "devDependencies": {
+        "@types/inquirer": "^7.3.1",
+        "@types/node": "^14.14.21",
+        "typescript": "^4.1.3"
+    },
+    "dependencies": {
+        "commander": "^7.0.0",
+        "inquirer": "^7.3.3"
+    },
+    "files": [
+        "dist",
+        "bin"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2019",
+        "lib": ["esnext", "dom"],
+        "importHelpers": true,
+        "strict": true,
+        "stripInternal": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "rootDir": "src",
+        "baseUrl": "src"
+    }
+}
