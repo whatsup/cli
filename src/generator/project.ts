@@ -3,10 +3,10 @@ import fs from 'fs'
 import commander from 'commander'
 import inquirer from 'inquirer'
 
-import createPackageJson from 'stage/createPackageJson'
-import installDependencies from 'stage/installDependencies'
-import { replaceMaskFile } from 'utils/replaceMask'
-import copyFolder from 'utils/copyFolder'
+import createPackageJson from '../stage/createPackageJson'
+import installDependencies from '../stage/installDependencies'
+import { replaceMaskFile } from '../utils/replaceMask'
+import copyFolder from '../utils/copyFolder'
 
 import Log from '../Log'
 
@@ -21,7 +21,7 @@ const createProject = (projectName: string, packageManager: 'yarn' | 'npm') => {
     fs.mkdirSync(projectName)
 
     copyFolder(source, target)
-    replaceMaskFile(path.join(target, 'config/app.ts'), {
+    replaceMaskFile(path.join(target, 'README.md'), {
       projectName,
     })
 
