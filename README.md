@@ -1,10 +1,10 @@
-<center>
+<p align="center">
 
-# Whatsup CLI
+<h1>Whatsup CLI</h1>
 
 Tooling for creation Whatsup applications
 
-</center>
+</p>
 
 ## Install
 
