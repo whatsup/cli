@@ -1,7 +1,7 @@
 {
   "name": "@whatsup-js/cli",
   "version": "0.1.0",
-  "description": "Tooling for creation Whatsup application",
+  "description": "Tooling for creation Whatsup applications",
   "main": "dist/index.cjs.js",
   "scripts": {
     "start": "tsc && node ./bin/whatsup project",
