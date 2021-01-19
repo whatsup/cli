@@ -4,7 +4,7 @@
   "description": "Tooling for creation Whatsup application",
   "main": "dist/index.cjs.js",
   "scripts": {
-    "start": "npm run build && node ./bin/whatsup",
+    "start": "tsc && node ./bin/whatsup project",
     "build": "tsc -p ."
   },
   "bin": {

@@ -4,7 +4,6 @@
     "module": "commonjs",
     "target": "ES2019",
     "lib": ["esnext", "dom"],
-    "importHelpers": true,
     "strict": true,
     "stripInternal": true,
     "noUnusedLocals": true,
