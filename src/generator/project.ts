@@ -42,7 +42,6 @@ const createProject = (projectName: string, packageManager: 'yarn' | 'npm', tool
       const source = path.join(__dirname, '/../../template/project')
       copyFolder(source, src_target)
     }
-
     createPackageJson(target, projectName, tooling.includes('routing'))
     installDependencies(target, packageManager)
 

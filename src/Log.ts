@@ -1,6 +1,5 @@
 class Log {
   private static _instance: Log
-  private infoOld: string
   private colors = {
     reset: '\x1b[0m',
     fgBlack: '\x1b[30m',
@@ -15,32 +14,18 @@ class Log {
     bgWhite: '\x1b[47m',
   }
 
-  private constructor() {
-    this.infoOld = ''
-  }
-
   public static get Instance() {
     return this._instance || (this._instance = new this())
   }
 
   infoHeap(text: string) {
-    if (this.infoOld !== '') {
-      process.stdout.clearLine(0)
-      process.stdout.cursorTo(0)
-    }
-
     process.stdout.write(`${this.colors.fgBlue}ℹ${this.colors.reset} ${text}`)
-    this.infoOld = text
+    this.jump()
   }
 
   successHeap(text: string) {
-    if (this.infoOld !== '') {
-      process.stdout.clearLine(0)
-      process.stdout.cursorTo(0)
-    }
-
+    this.jump()
     process.stdout.write(`${this.colors.fgGreen}✓${this.colors.reset} ${text}\n`)
-    this.infoOld = text
   }
 
   errorHeap(text: string) {

@@ -2,7 +2,7 @@ import { spawnSync } from 'child_process'
 import Log from '../Log'
 
 const installDependencies = (target: string, packageManager: 'yarn' | 'npm') => {
-  Log.Instance.infoHeap(`Installing dependencies`)
+  Log.Instance.infoHeap('Installing dependencies...')
 
   const originalDirectory = process.cwd()
 

@@ -3,13 +3,13 @@ import path from 'path'
 import Log from '../Log'
 
 const createPackageJson = (target: string, name: string, routing: boolean) => {
-  Log.Instance.infoHeap(`Creating file package.json`)
-  let dependencies = {
+  Log.Instance.infoHeap('Creating package.json file')
+  const dependencies = {
     whatsup: '^1.1.0',
     '@whatsup/jsx': '^0.1.4',
   }
 
-  let basePackageJson: any = {
+  const basePackageJson: any = {
     name: name,
     description: 'Project created with Whatsup CLI',
     version: '0.0.1',
@@ -17,7 +17,7 @@ const createPackageJson = (target: string, name: string, routing: boolean) => {
       start: 'cross-env NODE_ENV=development webpack-dev-server',
       build: 'cross-env NODE_ENV=production webpack -p',
     },
-    dependencies: Object.assign(routing ? { '@whatsup/jsx': '^0.3.1' } : {}, dependencies),
+    dependencies: Object.assign(routing ? { '@whatsup/route': '^0.3.1' } : {}, dependencies),
     devDependencies: {
       '@babel/cli': '^7.10.4',
       '@babel/core': '^7.10.4',
