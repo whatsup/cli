@@ -9,9 +9,9 @@ Tooling for creation Whatsup applications
 ## Install
 
 ```bash
-npm install @whatsup-js/cli
+npm install @whatsup/cli
 # or
-yarn add @whatsup-js/cli
+yarn add @whatsup/cli
 ```
 
 ## Quick Overview
@@ -33,17 +33,17 @@ See some other ways to use the Whatsup CLI.
 ### With Yarn
 
 ```
-yarn create @whatsup-js/cli my-project-name
+yarn create @whatsup/cli my-project-name
 ```
 
 ### With NPX
 
 ```
-npx @whatsup-js/cli project my-project-name
+npx @whatsup/cli project my-project-name
 ```
 
 ### With NPM
 
 ```
-npm init @whatsup-js/cli project my-project-name
+npm init @whatsup/cli project my-project-name
 ```

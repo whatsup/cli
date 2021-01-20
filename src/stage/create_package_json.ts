@@ -2,8 +2,12 @@ import fs from 'fs'
 import path from 'path'
 import Log from '../Log'
 
-const createPackageJson = (target: string, name: string) => {
+const createPackageJson = (target: string, name: string, routing: boolean) => {
   Log.Instance.infoHeap(`Creating file package.json`)
+  let dependencies = {
+    whatsup: '^1.1.0',
+    '@whatsup/jsx': '^0.1.4',
+  }
 
   let basePackageJson: any = {
     name: name,
@@ -13,10 +17,7 @@ const createPackageJson = (target: string, name: string) => {
       start: 'cross-env NODE_ENV=development webpack-dev-server',
       build: 'cross-env NODE_ENV=production webpack -p',
     },
-    dependencies: {
-      whatsup: '^1.1.0',
-      '@whatsup-js/jsx': '^0.1.3',
-    },
+    dependencies: Object.assign(routing ? { '@whatsup/jsx': '^0.3.1' } : {}, dependencies),
     devDependencies: {
       '@babel/cli': '^7.10.4',
       '@babel/core': '^7.10.4',
@@ -25,7 +26,7 @@ const createPackageJson = (target: string, name: string) => {
       '@babel/plugin-transform-typescript': '^7.10.4',
       '@babel/preset-env': '^7.10.4',
       '@babel/preset-typescript': '^7.10.4',
-      '@whatsup-js/babel-plugin-transform-jsx': '0.2.1',
+      '@whatsup/babel-plugin-transform-jsx': '^0.2.2',
       'babel-loader': '^8.1.0',
       'core-js': '^3.6.5',
       'cross-env': '^7.0.2',

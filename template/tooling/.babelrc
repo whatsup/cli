@@ -10,5 +10,5 @@
     ],
     "@babel/typescript"
   ],
-  "plugins": ["@babel/transform-typescript", "@babel/proposal-class-properties", "@whatsup-js/transform-jsx"]
+  "plugins": ["@babel/transform-typescript", "@babel/proposal-class-properties", "@whatsup/transform-jsx"]
 }

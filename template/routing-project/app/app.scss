@@ -1,0 +1,61 @@
+@mixin palette {
+  &.red {
+    color: #e91e63;
+  }
+  &.pink {
+    color: #9c27b0;
+  }
+  &.blue {
+    color: #2196f3;
+  }
+  &.cyan {
+    color: #00bcd4;
+  }
+  &.green {
+    color: #4caf50;
+  }
+  &.lime {
+    color: #cddc39;
+  }
+  &.amber {
+    color: #ffc107;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  @include palette;
+  min-height: 100vh;
+  background-color: currentColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.5s ease;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  color: white;
+  margin: 0;
+}
+
+.color-btns {
+  display: flex;
+}
+
+.color-btn {
+  @include palette;
+
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-color: currentColor;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
