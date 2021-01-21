@@ -1,7 +1,315 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1125" height="351" viewBox="0 0 1125 351">
-  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-68 -124)">
-    <text id="WhatsUp" transform="translate(842.5 342)" fill="#263238" font-size="190" font-family="Impact"><tspan x="-349.941" y="0">WhatsUp</tspan></text>
-    <text id="it_s_more_than_just" data-name="it`s more than just" transform="translate(492 362)" fill="#9e9d24" font-size="45" font-family="Impact"><tspan x="8.664" y="45">it`s more than just state management</tspan></text>
-    <path id="Path" d="M267.345,0a4.4,4.4,0,0,1,.413,8.776,18.818,18.818,0,0,1,13.619,9.111,1.738,1.738,0,0,1-.025-.3,1.8,1.8,0,1,1,.589,1.33,18.792,18.792,0,0,1-14.565,27.122c12.715.406,28.737,2.6,44.7,10.054a3.284,3.284,0,1,1,1.214.578,94.886,94.886,0,0,1,24.839,17.386l.693.678-.061-.085a8.7,8.7,0,0,1,13.118-11.3,2,2,0,1,1,1.073,1.226,8.7,8.7,0,0,1-12.265,12.054,104.376,104.376,0,0,1,7.726,9.044l.136.18.273.363.273.368q.41.556.821,1.133l.274.387q.205.292.41.589l.273.4.273.4q.273.406.545.82l.271.417.135.21.27.424q.27.426.538.861l.268.437a82.291,82.291,0,0,1,7.682,16.424,4.6,4.6,0,1,1,.431,1.319,71.947,71.947,0,0,1,3.436,21,2.7,2.7,0,1,1,.017,1.688l-.02-.059-.005.344a68.324,68.324,0,0,1-1.359,12.393,1.8,1.8,0,1,1-.16.8v-.028l-.095.435q-.048.219-.1.438-6.894,23.255-23.1,28.085l.323.1q15.947,4.965,22.773,27.987l.05.219.049.219.095.435v-.028a1.8,1.8,0,1,1,.16.8,68.338,68.338,0,0,1,1.352,12.049l.007.344.005.344.02-.059a2.7,2.7,0,0,1,2.492-1.827h.066a2.7,2.7,0,1,1-2.575,3.516,71.947,71.947,0,0,1-3.436,21,4.584,4.584,0,1,1-.431,1.319,82.248,82.248,0,0,1-7.53,16.173l-.152.251-.268.437q-.179.29-.359.576l-.18.285-.27.424-.135.21-.271.417q-.181.276-.363.549l-.182.271-.273.4-.273.4-.205.3-.205.293-.274.387q-.308.433-.616.853l-.205.279-.273.368-.273.363-.136.18a104.378,104.378,0,0,1-7.726,9.044,8.7,8.7,0,0,1,12.265,12.054,2,2,0,1,1-1.073,1.226,8.7,8.7,0,0,1-13.184-11.207l.066-.095.061-.085-.693.678a94.885,94.885,0,0,1-24.839,17.386,3.305,3.305,0,1,1-1.214.578c-15.963,7.454-31.984,9.648-44.7,10.054a18.792,18.792,0,0,1,14.565,27.122,1.8,1.8,0,1,1-.589,1.33,1.738,1.738,0,0,1,.025-.3,18.818,18.818,0,0,1-13.619,9.111,4.4,4.4,0,1,1-1.647.156q-.48.024-.967.024a18.781,18.781,0,0,1-14.692-7.056,1.9,1.9,0,1,1-.763-1.02,18.786,18.786,0,0,1,12.687-29.3,117.456,117.456,0,0,1-30.38-4.7,1.4,1.4,0,1,1-1-.3c-3.775-1.141-7.427-2.451-10.952-3.9a3,3,0,1,1-1.927-.7,2.835,2.835,0,0,1,.3.015q-4.539-1.948-8.79-4.192a1.2,1.2,0,1,1-.913-.421,1.249,1.249,0,0,1,.132.007,129.51,129.51,0,0,1-14.282-8.89,7.6,7.6,0,0,1-9.4,11.856,1.9,1.9,0,1,1-.552-.394,7.6,7.6,0,0,1,8.288-12.672,135.985,135.985,0,0,1-14.09-11.986,1.4,1.4,0,1,1-.843-.829q-1.31-1.3-2.556-2.605-3.049-3.367-5.834-6.833a4,4,0,0,1-6.7,4.189,1,1,0,1,1-.986-.829.993.993,0,0,1,.5.132,4,4,0,0,1,5.875-5.152,138.341,138.341,0,0,1-10.163-14.9,2.405,2.405,0,1,1-.315-.536q-3.037-5.211-5.552-10.617a1.505,1.505,0,1,1-.208-.449q-1.693-3.676-3.145-7.443,0,.045,0,.091a1.1,1.1,0,1,1-.223-.662q-.938-2.467-1.772-4.973l-.207-.627v.005a.8.8,0,1,1-.173-.537,134.714,134.714,0,0,1-6.329-37.6,49.77,49.77,0,0,1-14.309,31.907.7.7,0,1,1-.6.692.56.56,0,0,1,.008-.1q-1.732,1.7-3.623,3.222a1,1,0,1,1-.788.977.985.985,0,0,1,.1-.43,49.972,49.972,0,0,1-5.782,3.885,1.3,1.3,0,1,1-.49.279,49.768,49.768,0,0,1-8.473,3.76l-.306.1h.047a1.9,1.9,0,1,1-1.059.322,50,50,0,0,1-13.713,2.167,2.9,2.9,0,0,1-.371,5.529.6.6,0,1,1-.489.072q-.088.005-.177.005a2.9,2.9,0,0,1-1.025-5.609,50.061,50.061,0,0,1-9.738-1.171.9.9,0,1,1-.509-.114,49.7,49.7,0,0,1-12.849-4.941,5.2,5.2,0,0,1-5.184,8.82,1.1,1.1,0,1,1-.981-.481,5.2,5.2,0,0,1,4.5-9.3,50.2,50.2,0,0,1-9.144-7.093.7.7,0,1,1-.693-.6.667.667,0,0,1,.1.007,50.243,50.243,0,0,1-4.528-5.27,1.806,1.806,0,1,1-.529-.723,49.955,49.955,0,0,1-4-6.58l-.151-.3v.016a.9.9,0,1,1-.365-.766q-.9-1.878-1.636-3.839a.5.5,0,1,1-.144-.386,49.729,49.729,0,0,1-3.019-15.287,11.706,11.706,0,0,1-11.544,9.742q-.263,0-.523-.012a.7.7,0,1,1-.867-.07,11.634,11.634,0,0,1-4.451-1.476,1.2,1.2,0,1,1-1.108-.64h.09l.028,0a11.678,11.678,0,0,1-4.834-8.5,2.6,2.6,0,0,1-5.015-.494H0v-.8H12.037a2.6,2.6,0,0,1,5.014-.495,11.678,11.678,0,0,1,4.834-8.5l-.028,0h-.045a1.2,1.2,0,1,1,1.063-.641,11.634,11.634,0,0,1,4.451-1.476.7.7,0,1,1,.867-.07q.26-.012.523-.012a11.706,11.706,0,0,1,11.544,9.742,49.729,49.729,0,0,1,3.019-15.287.5.5,0,1,1,.144-.386q.739-1.96,1.636-3.839a.9.9,0,1,1,.365-.766v.016a49.946,49.946,0,0,1,4.147-6.881,1.79,1.79,0,1,1,.529-.723,50.243,50.243,0,0,1,4.528-5.27.667.667,0,0,1-.1.007.7.7,0,1,1,.693-.6,50.2,50.2,0,0,1,9.144-7.093,5.2,5.2,0,0,1-4.5-9.3,1.1,1.1,0,1,1,.981-.481,5.2,5.2,0,0,1,5.184,8.82,49.7,49.7,0,0,1,12.849-4.941.9.9,0,1,1,.509-.114,50.061,50.061,0,0,1,9.738-1.171,2.9,2.9,0,0,1,1.025-5.609q.089,0,.177.005a.6.6,0,1,1,.489.072,2.9,2.9,0,0,1,.371,5.529,50,50,0,0,1,13.713,2.167,1.9,1.9,0,1,1,1.059.322h-.047a49.763,49.763,0,0,1,8.78,3.862,1.292,1.292,0,1,1,.49.279,49.972,49.972,0,0,1,5.782,3.885.985.985,0,0,1-.1-.43,1,1,0,1,1,.788.977q1.889,1.523,3.623,3.222a.56.56,0,0,1-.008-.1.7.7,0,1,1,.6.692,49.77,49.77,0,0,1,14.309,31.907,134.714,134.714,0,0,1,6.329-37.6.8.8,0,1,1,.173-.537v.005q.925-2.824,1.98-5.6a1.1,1.1,0,1,1,.223-.662q0,.046,0,.091,1.452-3.767,3.145-7.443a1.483,1.483,0,1,1,.208-.449q2.515-5.407,5.552-10.617a2.385,2.385,0,1,1,.315-.536,138.339,138.339,0,0,1,10.163-14.9,4,4,0,0,1-5.875-5.152,1,1,0,1,1,.5-.867,1,1,0,0,1-.015.171,4,4,0,0,1,6.7,4.189q2.785-3.466,5.834-6.833,1.246-1.3,2.556-2.605a1.4,1.4,0,1,1,.843-.829A135.981,135.981,0,0,1,192.9,70.258a7.6,7.6,0,0,1-8.288-12.672,1.9,1.9,0,1,1,.552-.394,7.6,7.6,0,0,1,9.4,11.856,129.506,129.506,0,0,1,14.282-8.89,1.248,1.248,0,0,1-.132.007,1.2,1.2,0,1,1,.913-.421q4.25-2.236,8.79-4.192a2.829,2.829,0,0,1-.3.015,3,3,0,1,1,1.927-.7c3.525-1.454,7.178-2.764,10.952-3.9a1.4,1.4,0,1,1,1-.3,117.456,117.456,0,0,1,30.38-4.7,18.786,18.786,0,0,1-12.687-29.3,1.892,1.892,0,1,1,.763-1.02A18.781,18.781,0,0,1,265.143,8.6q.487,0,.967.024A4.4,4.4,0,0,1,267.345,0Z" transform="translate(68 124)" fill="#c0ca33"/>
+<svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="1797" height="1764" viewBox="0 0 1797 1764">
+  <g id="Oval" transform="translate(144 632.5)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="250" cy="250" r="250" stroke="none"/>
+    <circle cx="250" cy="250" r="249.5" fill="none"/>
   </g>
+  <g id="Oval-2" data-name="Oval" transform="translate(27 824)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="58.5" cy="58.5" r="58.5" stroke="none"/>
+    <circle cx="58.5" cy="58.5" r="58" fill="none"/>
+  </g>
+  <g id="Oval-3" data-name="Oval" transform="translate(230 617)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="26" cy="26" r="26" stroke="none"/>
+    <circle cx="26" cy="26" r="25.5" fill="none"/>
+  </g>
+  <g id="Oval-4" data-name="Oval" transform="translate(230 617)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="26" cy="26" r="26" stroke="none"/>
+    <circle cx="26" cy="26" r="25.5" fill="none"/>
+  </g>
+  <g id="Oval-5" data-name="Oval" transform="translate(175 720)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9" cy="9" r="9" stroke="none"/>
+    <circle cx="9" cy="9" r="8.5" fill="none"/>
+  </g>
+  <g id="Oval-6" data-name="Oval" transform="translate(175 1026)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9" cy="9" r="9" stroke="none"/>
+    <circle cx="9" cy="9" r="8.5" fill="none"/>
+  </g>
+  <g id="Oval-7" data-name="Oval" transform="translate(160 767)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+    <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+  </g>
+  <g id="Oval-8" data-name="Oval" transform="translate(160 988)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+    <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+  </g>
+  <g id="Oval-9" data-name="Oval" transform="translate(154 793)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+    <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+  </g>
+  <g id="Oval-10" data-name="Oval" transform="translate(154 966)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+    <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+  </g>
+  <g id="Oval-11" data-name="Oval" transform="translate(211 699)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+    <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+  </g>
+  <g id="Oval-12" data-name="Oval" transform="translate(211 1059)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+    <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+  </g>
+  <g id="Oval-13" data-name="Oval" transform="translate(333 629)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+    <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+  </g>
+  <g id="Oval-14" data-name="Oval" transform="translate(333 1127)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+    <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+  </g>
+  <g id="Oval-15" data-name="Oval" transform="translate(394 596)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="3" cy="3" r="3" stroke="none"/>
+    <circle cx="3" cy="3" r="2.5" fill="none"/>
+  </g>
+  <g id="Oval-16" data-name="Oval" transform="translate(394 1163)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="3" cy="3" r="3" stroke="none"/>
+    <circle cx="3" cy="3" r="2.5" fill="none"/>
+  </g>
+  <g id="Oval-17" data-name="Oval" transform="translate(380 602.5)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="14.5" cy="14.5" r="14.5" stroke="none"/>
+    <circle cx="14.5" cy="14.5" r="14" fill="none"/>
+  </g>
+  <g id="Oval-18" data-name="Oval" transform="translate(380 1133)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="14.5" cy="14.5" r="14.5" stroke="none"/>
+    <circle cx="14.5" cy="14.5" r="14" fill="none"/>
+  </g>
+  <g id="Oval-19" data-name="Oval" transform="translate(465 626)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+  </g>
+  <g id="Oval-20" data-name="Oval" transform="translate(465 1120)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+  </g>
+  <g id="Oval-21" data-name="Oval" transform="translate(516 653)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+    <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+  </g>
+  <g id="Oval-22" data-name="Oval" transform="translate(516 1098)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+    <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+  </g>
+  <g id="Oval-23" data-name="Oval" transform="translate(548 678)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="5" cy="5" r="5" stroke="none"/>
+    <circle cx="5" cy="5" r="4.5" fill="none"/>
+  </g>
+  <g id="Oval-24" data-name="Oval" transform="translate(548 1077)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="5" cy="5" r="5" stroke="none"/>
+    <circle cx="5" cy="5" r="4.5" fill="none"/>
+  </g>
+  <g id="Oval-25" data-name="Oval" transform="translate(570 699)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+    <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+  </g>
+  <g id="Oval-26" data-name="Oval" transform="translate(570 1058)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+    <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+  </g>
+  <g id="Oval-27" data-name="Oval" transform="translate(668 671)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="4" cy="4" r="4" stroke="none"/>
+    <circle cx="4" cy="4" r="3.5" fill="none"/>
+  </g>
+  <g id="Oval-28" data-name="Oval" transform="translate(668 1085)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="4" cy="4" r="4" stroke="none"/>
+    <circle cx="4" cy="4" r="3.5" fill="none"/>
+  </g>
+  <g id="Oval-29" data-name="Oval" transform="translate(676 638)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+    <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+  </g>
+  <g id="Oval-30" data-name="Oval" transform="translate(676 1115)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+    <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+  </g>
+  <g id="Oval-31" data-name="Oval" transform="translate(689 595)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+    <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+  </g>
+  <g id="Oval-32" data-name="Oval" transform="translate(689 1154)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+    <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+  </g>
+  <g id="Oval-33" data-name="Oval" transform="translate(824 403)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="7" cy="7" r="7" stroke="none"/>
+    <circle cx="7" cy="7" r="6.5" fill="none"/>
+  </g>
+  <g id="Oval-34" data-name="Oval" transform="translate(824 1347)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="7" cy="7" r="7" stroke="none"/>
+    <circle cx="7" cy="7" r="6.5" fill="none"/>
+  </g>
+  <g id="Oval-35" data-name="Oval" transform="translate(981 291)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="6" cy="6" r="6" stroke="none"/>
+    <circle cx="6" cy="6" r="5.5" fill="none"/>
+  </g>
+  <g id="Oval-36" data-name="Oval" transform="translate(981 1462)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="6" cy="6" r="6" stroke="none"/>
+    <circle cx="6" cy="6" r="5.5" fill="none"/>
+  </g>
+  <g id="Oval-37" data-name="Oval" transform="translate(1093 242)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="7" cy="7" r="7" stroke="none"/>
+    <circle cx="7" cy="7" r="6.5" fill="none"/>
+  </g>
+  <g id="Oval-38" data-name="Oval" transform="translate(1093 1508)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="7" cy="7" r="7" stroke="none"/>
+    <circle cx="7" cy="7" r="6.5" fill="none"/>
+  </g>
+  <g id="Oval-39" data-name="Oval" transform="translate(710 532)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="12" cy="12" r="12" stroke="none"/>
+    <circle cx="12" cy="12" r="11.5" fill="none"/>
+  </g>
+  <g id="Oval-40" data-name="Oval" transform="translate(710 1208)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="12" cy="12" r="12" stroke="none"/>
+    <circle cx="12" cy="12" r="11.5" fill="none"/>
+  </g>
+  <g id="Oval-41" data-name="Oval" transform="translate(852 270)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+  </g>
+  <g id="Oval-42" data-name="Oval" transform="translate(852 1475)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+  </g>
+  <g id="Oval-43" data-name="Oval" transform="translate(1020 250)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="15" cy="15" r="15" stroke="none"/>
+    <circle cx="15" cy="15" r="14.5" fill="none"/>
+  </g>
+  <g id="Oval-44" data-name="Oval" transform="translate(1020 1485)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="15" cy="15" r="15" stroke="none"/>
+    <circle cx="15" cy="15" r="14.5" fill="none"/>
+  </g>
+  <g id="Oval-45" data-name="Oval" transform="translate(1259)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="22" cy="22" r="22" stroke="none"/>
+    <circle cx="22" cy="22" r="21.5" fill="none"/>
+  </g>
+  <g id="Oval-46" data-name="Oval" transform="translate(1259 1720)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="22" cy="22" r="22" stroke="none"/>
+    <circle cx="22" cy="22" r="21.5" fill="none"/>
+  </g>
+  <g id="Oval-47" data-name="Oval" transform="translate(1175 68)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+  </g>
+  <g id="Oval-48" data-name="Oval" transform="translate(1175 1677)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+  </g>
+  <g id="Oval-49" data-name="Oval" transform="translate(1354 82)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9" cy="9" r="9" stroke="none"/>
+    <circle cx="9" cy="9" r="8.5" fill="none"/>
+  </g>
+  <g id="Oval-50" data-name="Oval" transform="translate(1353 1664)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9" cy="9" r="9" stroke="none"/>
+    <circle cx="9" cy="9" r="8.5" fill="none"/>
+  </g>
+  <g id="Oval-51" data-name="Oval" transform="translate(1499 255)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+    <circle cx="16.5" cy="16.5" r="16" fill="none"/>
+  </g>
+  <g id="Oval-52" data-name="Oval" transform="translate(1499 1477)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+    <circle cx="16.5" cy="16.5" r="16" fill="none"/>
+  </g>
+  <g id="Oval-53" data-name="Oval" transform="translate(1632 308)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+    <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+  </g>
+  <g id="Oval-54" data-name="Oval" transform="translate(1632 1369)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
+    <circle cx="43.5" cy="43.5" r="43" fill="none"/>
+  </g>
+  <g id="Oval-55" data-name="Oval" transform="translate(1709 308)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="10" cy="10" r="10" stroke="none"/>
+    <circle cx="10" cy="10" r="9.5" fill="none"/>
+  </g>
+  <g id="Oval-56" data-name="Oval" transform="translate(1709 1436)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="10" cy="10" r="10" stroke="none"/>
+    <circle cx="10" cy="10" r="9.5" fill="none"/>
+  </g>
+  <g id="Oval-57" data-name="Oval" transform="translate(1750 523)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="23" cy="23" r="23" stroke="none"/>
+    <circle cx="23" cy="23" r="22.5" fill="none"/>
+  </g>
+  <g id="Oval-58" data-name="Oval" transform="translate(1750 1195)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="23" cy="23" r="23" stroke="none"/>
+    <circle cx="23" cy="23" r="22.5" fill="none"/>
+  </g>
+  <g id="Oval-59" data-name="Oval" transform="translate(1770 652)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="13.5" cy="13.5" r="13.5" stroke="none"/>
+    <circle cx="13.5" cy="13.5" r="13" fill="none"/>
+  </g>
+  <g id="Oval-60" data-name="Oval" transform="translate(1769 1085)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="13.5" cy="13.5" r="13.5" stroke="none"/>
+    <circle cx="13.5" cy="13.5" r="13" fill="none"/>
+  </g>
+  <g id="Oval-61" data-name="Oval" transform="translate(1762 728)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9" cy="9" r="9" stroke="none"/>
+    <circle cx="9" cy="9" r="8.5" fill="none"/>
+  </g>
+  <g id="Oval-62" data-name="Oval" transform="translate(1761 1018)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="9" cy="9" r="9" stroke="none"/>
+    <circle cx="9" cy="9" r="8.5" fill="none"/>
+  </g>
+  <g id="Oval-63" data-name="Oval" transform="translate(1176 44)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="94" cy="94" r="94" stroke="none"/>
+    <circle cx="94" cy="94" r="93.5" fill="none"/>
+  </g>
+  <g id="Oval-64" data-name="Oval" transform="translate(1175 1532)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="94" cy="94" r="94" stroke="none"/>
+    <circle cx="94" cy="94" r="93.5" fill="none"/>
+  </g>
+  <g id="Oval-65" data-name="Oval" transform="translate(745 437)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="5" cy="5" r="5" stroke="none"/>
+    <circle cx="5" cy="5" r="4.5" fill="none"/>
+  </g>
+  <g id="Oval-66" data-name="Oval" transform="translate(746 1318)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="5" cy="5" r="5" stroke="none"/>
+    <circle cx="5" cy="5" r="4.5" fill="none"/>
+  </g>
+  <g id="Oval-67" data-name="Oval" transform="translate(752 437)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="20" cy="20" r="20" stroke="none"/>
+    <circle cx="20" cy="20" r="19.5" fill="none"/>
+  </g>
+  <g id="Oval-68" data-name="Oval" transform="translate(752 1287)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="20" cy="20" r="20" stroke="none"/>
+    <circle cx="20" cy="20" r="19.5" fill="none"/>
+  </g>
+  <g id="Oval-69" data-name="Oval" transform="translate(852 281)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="38" cy="38" r="38" stroke="none"/>
+    <circle cx="38" cy="38" r="37.5" fill="none"/>
+  </g>
+  <g id="Oval-70" data-name="Oval" transform="translate(852 1406)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="38" cy="38" r="38" stroke="none"/>
+    <circle cx="38" cy="38" r="37.5" fill="none"/>
+  </g>
+  <g id="Oval-71" data-name="Oval" transform="translate(237 608)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+    <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+  </g>
+  <g id="Oval-72" data-name="Oval" transform="translate(237 1146)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="5.5" cy="5.5" r="5.5" stroke="none"/>
+    <circle cx="5.5" cy="5.5" r="5" fill="none"/>
+  </g>
+  <g id="Oval-73" data-name="Oval" transform="translate(230 1095)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="26" cy="26" r="26" stroke="none"/>
+    <circle cx="26" cy="26" r="25.5" fill="none"/>
+  </g>
+  <g id="Oval-74" data-name="Oval" transform="translate(0 869)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="13" cy="13" r="13" stroke="none"/>
+    <circle cx="13" cy="13" r="12.5" fill="none"/>
+  </g>
+  <g id="Oval-75" data-name="Oval" transform="translate(44 821)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="6" cy="6" r="6" stroke="none"/>
+    <circle cx="6" cy="6" r="5.5" fill="none"/>
+  </g>
+  <g id="Oval-76" data-name="Oval" transform="translate(44 931)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="6" cy="6" r="6" stroke="none"/>
+    <circle cx="6" cy="6" r="5.5" fill="none"/>
+  </g>
+  <g id="Oval-77" data-name="Oval" transform="translate(78 941)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+    <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+  </g>
+  <g id="Oval-78" data-name="Oval" transform="translate(78 817)" fill="#c0ca33" stroke="#c0ca33" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+    <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+  </g>
+  <path id="Path" d="M.206,648.038Q2.5,391.1,176.572,198.666C270.242,100.477,418.847,4.135,612.193,0c113.6,0,296.668,24.8,428.923,198.666,49.421,64.968,102.752,177.886,72.921,308.865Q1079.584,623.87,998.62,648.038h-.206q80.964,24.168,115.417,140.507c29.831,130.979-23.5,243.9-72.921,308.865-132.255,173.862-315.323,198.666-428.923,198.666-193.345-4.135-341.951-100.477-435.62-198.666Q4.035,906.9.063,653.17L0,648.038Z" transform="translate(645 233.962)" fill="#c0ca33" stroke="#c0ca33" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
 </svg>

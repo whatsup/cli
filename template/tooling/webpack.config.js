@@ -3,7 +3,7 @@ const isDev = process.env.NODE_ENV === 'development'
 const HtmlPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: './src/bundle.tsx',
+  entry: './src/index.tsx',
 
   output: {
     path: path.resolve('./dist'),

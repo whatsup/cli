@@ -1,0 +1,142 @@
+@function spacing($value) {
+  @return calc(#{$value} * 8px);
+}
+
+@mixin palette($property) {
+  &.black {
+    #{$property}: #263238;
+  }
+  &.red {
+    #{$property}: #e91e63;
+  }
+  &.pink {
+    #{$property}: #9c27b0;
+  }
+  &.blue {
+    #{$property}: #2196f3;
+  }
+  &.cyan {
+    #{$property}: #00bcd4;
+  }
+  &.green {
+    #{$property}: #4caf50;
+  }
+  &.lime {
+    #{$property}: #cddc39;
+  }
+  &.amber {
+    #{$property}: #ffc107;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  width: 1000px;
+  max-width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.5s ease;
+  padding: spacing(12) spacing(4);
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: spacing(1) spacing(2);
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+}
+
+.color-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: spacing(0.5);
+}
+
+.color-btn {
+  @include palette(background-color);
+  width: 20px;
+  height: 20px;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  height: 70px;
+  max-width: 100%;
+}
+
+.title {
+  margin: 0;
+  color: #263238;
+  font-size: 50pt;
+}
+
+.subtitle {
+  margin: 0;
+  color: #9e9d24;
+  font-size: 20pt;
+}
+
+.cards {
+  display: flex;
+  gap: spacing(2);
+  width: 100%;
+  gap: spacing(2);
+  margin-top: 96px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: spacing(2);
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+
+  h3 {
+    @include palette(color);
+    background-color: transparent;
+    background-color: transparent;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  p {
+    margin-bottom: spacing(3);
+    color: #676f73;
+    flex: 1;
+  }
+
+  .button {
+    @include palette(background-color);
+    color: white;
+    padding: spacing(1.5) spacing(3);
+    transition: all 0.5s ease;
+    align-self: flex-start;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
