@@ -21,7 +21,6 @@ const createProject = (projectName: string, packageManager: 'yarn' | 'npm', tool
   try {
     Log.Instance.infoHeap(`Copying files`)
     fs.mkdirSync(target)
-    fs.mkdirSync(src_target)
 
     copyFolder(source_tooling, target)
     replaceMaskFile(path.join(target, 'README.md'), {

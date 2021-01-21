@@ -27,7 +27,7 @@ module.exports = {
 
   plugins: [
     new HtmlPlugin({
-      title: 'WhatsUp Project',
+      title: 'WhatsUp boilerplate',
       inject: true,
       hash: true,
       cache: true,
@@ -42,7 +42,7 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(mp3|ogg|jpg)$/,
+        test: /\.(mp3|ogg|jpg|svg|png)$/,
         use: ['file-loader'],
         exclude: /node_modules/,
       },
@@ -66,6 +66,7 @@ module.exports = {
       },
     ],
   },
+
   devServer: {
     port: 4000,
     historyApiFallback: true,

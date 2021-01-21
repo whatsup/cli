@@ -1,24 +1,27 @@
 @mixin palette {
+  &.black {
+    background-color: #263238;
+  }
   &.red {
-    color: #e91e63;
+    background-color: #e91e63;
   }
   &.pink {
-    color: #9c27b0;
+    background-color: #9c27b0;
   }
   &.blue {
-    color: #2196f3;
+    background-color: #2196f3;
   }
   &.cyan {
-    color: #00bcd4;
+    background-color: #00bcd4;
   }
   &.green {
-    color: #4caf50;
+    background-color: #4caf50;
   }
   &.lime {
-    color: #cddc39;
+    background-color: #cddc39;
   }
   &.amber {
-    color: #ffc107;
+    background-color: #ffc107;
   }
 }
 
@@ -27,35 +30,67 @@ body {
 }
 
 .container {
-  @include palette;
   min-height: 100vh;
-  background-color: currentColor;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: color 0.5s ease;
-}
-
-.title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 75px;
-  color: white;
-  margin: 0;
+  padding: 32px;
+  background-color: #f0f2dc;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
 }
 
 .color-btns {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
 }
 
 .color-btn {
   @include palette;
-
-  width: 30px;
-  height: 30px;
-  margin: 10px;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
   background-color: currentColor;
   border: 3px solid white;
   border-radius: 50%;
   cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  height: 200px;
+  max-width: 100%;
+}
+
+.description {
+  font-size: 16pt;
+  margin-top: 48px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: 1px 1px 2px #263238;
+  h1 {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.button {
+  @include palette;
+  background-color: currentColor;
+  color: white;
+  padding: 16px 32px;
+  transition: all 0.5s ease;
+  margin-top: 48px;
+  align-self: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
