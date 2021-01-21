@@ -1,10 +1,13 @@
-<p align="center">
-
-<h1>Whatsup CLI</h1>
+# Whatsup CLI
 
 Tooling for creation Whatsup applications
 
-</p>
+<div align="center">
+<img src="https://img.shields.io/github/workflow/status/whatsup/cli/Node.js%20CI/master" alt="GitHub Workflow Status (branch)" /> 
+<img src="https://img.shields.io/codecov/c/github/whatsup/cli" alt="codecov" />
+<img src="https://img.shields.io/github/languages/top/whatsup/cli" alt="language" />
+<img src="https://img.shields.io/npm/l/@whatsup/cli" alt="license" />  
+</div>
 
 ## Install
 
