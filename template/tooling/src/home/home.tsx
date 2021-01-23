@@ -3,7 +3,7 @@ import { Color, Palette } from './home.const'
 import Logo from '../assets/logo.svg'
 import styles from './home.scss'
 
-class Home extends Fractal<JSX.Element> {
+export class Home extends Fractal<JSX.Element> {
   readonly color = conse(Color.Black);
 
   *whatsUp() {
@@ -93,5 +93,3 @@ function Card({ title, message, url, color }: CardProps) {
     </div>
   )
 }
-
-export default Home

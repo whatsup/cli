@@ -27,13 +27,6 @@ const createProject = (projectName: string, packageManager: 'yarn' | 'npm', tool
       projectName,
     })
 
-    if (tooling.includes('git')) {
-      fs.renameSync(path.join(target, 'gitignore'), path.join(target, '.gitignore'))
-      initializeGit(projectName)
-    } else {
-      fs.unlinkSync(path.join(target, 'gitignore'))
-    }
-
     if (tooling.includes('routing')) {
       const source = path.join(__dirname, '/../../template/routing-project')
       copyFolder(source, src_target)
@@ -43,6 +36,13 @@ const createProject = (projectName: string, packageManager: 'yarn' | 'npm', tool
     }
     createPackageJson(target, projectName, tooling.includes('routing'))
     installDependencies(target, packageManager)
+
+    if (tooling.includes('git')) {
+      fs.renameSync(path.join(target, 'gitignore'), path.join(target, '.gitignore'))
+      initializeGit(projectName)
+    } else {
+      fs.unlinkSync(path.join(target, 'gitignore'))
+    }
 
     Log.Instance.successHeap(`The ${projectName} project was created.`)
     Log.Instance.info(`Path: ${target}\n\n`)
