@@ -8,14 +8,14 @@ Project create with [whatsup cli](https://github.com/whatsup/cli)
 
 ```sh
 # move to create folder
-$ cd [PROJECT_NAME]
+$ cd [[projectName]]
 
 # install dependencies
-$ npm install
+$ [[packageManager]] install
 
 # serve with hot reload
-$ npm run start
+$ [[packageManager]] start
 
 # build project for production
-$ npm run build
+$ [[packageManager]] build
 ```

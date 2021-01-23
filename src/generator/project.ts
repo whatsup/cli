@@ -25,6 +25,7 @@ const createProject = (projectName: string, packageManager: 'yarn' | 'npm', tool
     copyFolder(source_tooling, target)
     replaceMaskFile(path.join(target, 'README.md'), {
       projectName,
+      packageManager,
     })
 
     if (tooling.includes('routing')) {
