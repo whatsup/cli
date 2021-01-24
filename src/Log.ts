@@ -25,13 +25,13 @@ class Log {
 
   successHeap(text: string) {
     this.jump()
-    process.stdout.write(`${this.colors.fgGreen}✓${this.colors.reset} ${text}\n`)
+    process.stdout.write(`${this.colors.fgGreen}✓${this.colors.reset} ${text}`)
   }
 
   errorHeap(text: string) {
     process.stdout.clearLine(0)
     process.stdout.cursorTo(0)
-    process.stdout.write(`${this.colors.fgRed}☓${this.colors.reset} ${text}\n`)
+    process.stdout.write(`${this.colors.fgRed}☓${this.colors.reset} ${text}`)
   }
 
   jump() {

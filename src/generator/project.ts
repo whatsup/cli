@@ -13,14 +13,14 @@ import Properties from '../types/Properties'
 import Log from '../Log'
 
 const createProject = (properties: Properties) => {
-  Log.Instance.infoHeap('Creating the project')
+  Log.Instance.infoHeap('Creating the project...')
 
   const source_tooling = path.join(__dirname, '/../../template/tooling')
   const target = path.join(process.cwd(), properties.projectName)
   const src_target = path.join(target, 'src')
 
   try {
-    Log.Instance.infoHeap(`Copying files`)
+    Log.Instance.infoHeap(`Copying files...`)
     fs.mkdirSync(target)
 
     copyFolder(source_tooling, target)
@@ -46,7 +46,6 @@ const createProject = (properties: Properties) => {
     }
 
     createPackageJson(target, properties)
-    installDependencies(target, properties)
 
     if (properties.git) {
       fs.renameSync(path.join(target, 'gitignore'), path.join(target, '.gitignore'))
@@ -54,6 +53,8 @@ const createProject = (properties: Properties) => {
     } else {
       fs.unlinkSync(path.join(target, 'gitignore'))
     }
+
+    installDependencies(target, properties)
 
     Log.Instance.successHeap(`The ${properties.projectName} project was created.`)
     Log.Instance.info(`Path: ${target}\n\n`)

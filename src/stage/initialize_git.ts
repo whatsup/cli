@@ -2,7 +2,7 @@ import { spawnSync } from 'child_process'
 import Log from '../Log'
 
 const initializeGit = (projectName: string) => {
-  Log.Instance.infoHeap(`Starting the git`)
+  Log.Instance.infoHeap(`Starting the git...`)
 
   const originalDirectory = process.cwd()
 

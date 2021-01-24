@@ -42,7 +42,7 @@ const rollupSettings = {
 }
 
 const createPackageJson = (target: string, properties: Properties) => {
-  Log.Instance.infoHeap('Creating package.json file')
+  Log.Instance.infoHeap('Creating package.json file...')
   const dependencies = {
     whatsup: '^1.1.0',
     '@whatsup/jsx': '^0.1.4',
