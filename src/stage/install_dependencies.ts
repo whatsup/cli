@@ -1,7 +1,8 @@
 import { spawnSync } from 'child_process'
+import Properties from '../types/Properties'
 import Log from '../Log'
 
-const installDependencies = (target: string, packageManager: 'yarn' | 'npm') => {
+const installDependencies = (target: string, properties: Properties) => {
   Log.Instance.infoHeap('Installing dependencies...')
 
   const originalDirectory = process.cwd()
@@ -9,7 +10,7 @@ const installDependencies = (target: string, packageManager: 'yarn' | 'npm') => 
   try {
     process.chdir(target)
 
-    if (packageManager === 'yarn') {
+    if (properties.packageManager === 'yarn') {
       spawnSync('yarnpkg', ['install'], { stdio: 'ignore' })
     } else {
       spawnSync('npm', ['install'], { stdio: 'ignore' })

@@ -9,13 +9,14 @@ import initializeGit from '../stage/initialize_git'
 import { replaceMaskFile } from '../utils/replace_mask'
 import copyFolder from '../utils/copy_folder'
 
+import Properties from '../types/Properties'
 import Log from '../Log'
 
-const createProject = (projectName: string, packageManager: 'yarn' | 'npm', tooling: string[]) => {
+const createProject = (properties: Properties) => {
   Log.Instance.infoHeap('Creating the project')
 
   const source_tooling = path.join(__dirname, '/../../template/tooling')
-  const target = path.join(process.cwd(), projectName)
+  const target = path.join(process.cwd(), properties.projectName)
   const src_target = path.join(target, 'src')
 
   try {
@@ -24,28 +25,37 @@ const createProject = (projectName: string, packageManager: 'yarn' | 'npm', tool
 
     copyFolder(source_tooling, target)
     replaceMaskFile(path.join(target, 'README.md'), {
-      projectName,
-      packageManager,
+      projectName: properties.projectName,
+      packageManager: properties.packageManager,
     })
 
-    if (tooling.includes('routing')) {
+    if (properties.routing) {
       const source = path.join(__dirname, '/../../template/routing-project')
       copyFolder(source, src_target)
     } else {
       const source = path.join(__dirname, '/../../template/project')
       copyFolder(source, src_target)
     }
-    createPackageJson(target, projectName, tooling.includes('routing'))
-    installDependencies(target, packageManager)
 
-    if (tooling.includes('git')) {
+    if (properties.moduleBundler === 'webpack') {
+      const source = path.join(__dirname, '/../../template/config/webpack.config.js')
+      fs.copyFileSync(source, path.join(target, 'webpack.config.js'))
+    } else {
+      const source = path.join(__dirname, '/../../template/config/rollup.config.js')
+      fs.copyFileSync(source, path.join(target, 'rollup.config.js'))
+    }
+
+    createPackageJson(target, properties)
+    installDependencies(target, properties)
+
+    if (properties.git) {
       fs.renameSync(path.join(target, 'gitignore'), path.join(target, '.gitignore'))
-      initializeGit(projectName)
+      initializeGit(properties.projectName)
     } else {
       fs.unlinkSync(path.join(target, 'gitignore'))
     }
 
-    Log.Instance.successHeap(`The ${projectName} project was created.`)
+    Log.Instance.successHeap(`The ${properties.projectName} project was created.`)
     Log.Instance.info(`Path: ${target}\n\n`)
   } catch (err) {
     Log.Instance.exception(err)
@@ -70,6 +80,13 @@ const createProjectWithOptions = () => {
         choices: ['npm', 'yarn'],
       },
       {
+        name: 'moduleBundler',
+        message: 'Module bundler:',
+        type: 'list',
+        default: 'webpack',
+        choices: ['webpack', 'rollup'],
+      },
+      {
         name: 'tooling',
         message: 'Tooling:',
         type: 'checkbox',
@@ -81,7 +98,13 @@ const createProjectWithOptions = () => {
     ])
     .then((answers) => {
       Log.Instance.jump()
-      createProject(answers.projectName, answers.packageManager, answers.tooling)
+      createProject({
+        projectName: answers.projectName,
+        packageManager: answers.packageManager,
+        moduleBundler: answers.moduleBundler,
+        routing: answers.tooling.includes('routing'),
+        git: answers.tooling.includes('git'),
+      })
     })
 }
 
@@ -89,8 +112,9 @@ commander
   .name(`recife-cli project`)
   .arguments('[project-name]')
   .option('-p, --package-manager <packageManager>', 'Package Manager', 'npm')
-  .option('-g, --git', 'Git', 'git')
-  .option('-r, --routing', 'Routing', 'routing')
+  .option('-m, --module-bundler <moduleBundler>', 'Module Bundler', 'webpack')
+  .option('-g, --git', 'Git', false)
+  .option('-r, --routing', 'Routing', false)
   .action((name, cmd) => {
     const tooling = []
 
@@ -103,7 +127,13 @@ commander
     }
 
     if (name) {
-      createProject(name, cmd.packageManager, tooling)
+      createProject({
+        projectName: name,
+        packageManager: cmd.packageManager,
+        moduleBundler: cmd.moduleBundler,
+        routing: !!cmd.routing,
+        git: !!cmd.git,
+      })
     } else {
       createProjectWithOptions()
     }
