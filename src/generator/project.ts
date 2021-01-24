@@ -46,6 +46,7 @@ const createProject = (properties: Properties) => {
     }
 
     createPackageJson(target, properties)
+    installDependencies(target, properties)
 
     if (properties.git) {
       fs.renameSync(path.join(target, 'gitignore'), path.join(target, '.gitignore'))
@@ -53,8 +54,6 @@ const createProject = (properties: Properties) => {
     } else {
       fs.unlinkSync(path.join(target, 'gitignore'))
     }
-
-    installDependencies(target, properties)
 
     Log.Instance.successHeap(`The ${properties.projectName} project was created.`)
     Log.Instance.info(`Path: ${target}\n\n`)

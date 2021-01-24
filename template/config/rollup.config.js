@@ -29,7 +29,7 @@ export default {
       },
       use: ['sass'],
     }),
-    babel({ extensions: ['.ts', '.tsx'], include: ['src/**/*'] }),
+    babel({ extensions: ['.ts', '.tsx'], include: ['src/**/*'], exclude: 'node_modules/**', babelHelpers: 'bundled' }),
     image(),
     resolve(),
     commonjs(),
