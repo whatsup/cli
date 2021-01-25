@@ -27,7 +27,7 @@ module.exports = {
 
   plugins: [
     new HtmlPlugin({
-      title: 'WhatsUp boilerplate',
+      title: 'WhatsUp project',
       inject: true,
       hash: true,
       cache: true,

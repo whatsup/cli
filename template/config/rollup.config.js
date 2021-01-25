@@ -33,7 +33,7 @@ export default {
     image(),
     resolve(),
     commonjs(),
-    html(),
+    html({ title: 'Whatsup project' }),
     !production && serve({ port: 4000, contentBase: 'build' }),
     !production && livereload(),
   ],
