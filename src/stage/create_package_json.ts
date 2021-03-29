@@ -44,8 +44,8 @@ const rollupSettings = {
 const createPackageJson = (target: string, properties: Properties) => {
   Log.Instance.infoHeap('Creating package.json file...')
   const dependencies = {
-    whatsup: '^1.1.0',
-    '@whatsup/jsx': '^0.1.4',
+    whatsup: '^1.2.0',
+    '@whatsup/jsx': '^0.2.2',
   }
 
   const moduleBundlerSettings = properties.moduleBundler === 'webpack' ? webpackSettings : rollupSettings
@@ -55,7 +55,7 @@ const createPackageJson = (target: string, properties: Properties) => {
     description: 'Project created with Whatsup CLI',
     version: '0.0.1',
     scripts: moduleBundlerSettings.scripts,
-    dependencies: Object.assign(properties.routing ? { '@whatsup/route': '^0.3.1' } : {}, dependencies),
+    dependencies: Object.assign(properties.routing ? { '@whatsup/route': '^0.4.1' } : {}, dependencies),
     devDependencies: {
       '@babel/cli': '^7.10.4',
       '@babel/core': '^7.10.4',
