@@ -4,7 +4,7 @@ import Logo from '../assets/logo.svg'
 import styles from './home.scss'
 
 export class Home extends Fractal<JSX.Element> {
-  readonly color = conse(Color.Black);
+  readonly color = conse(Color.Cyan);
 
   *whatsUp() {
     while (true) {
