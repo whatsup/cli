@@ -12,8 +12,8 @@ export class Home extends Fractal<JSX.Element> {
         <>
           <Header onMouseEnter={(color) => this.color.set(color)} />
           <Container>
-            <h1 className={styles.title}>Welcome to WhatsUp!</h1>
-            <h3 className={styles.subtitle}>it`s more than just state management</h3>
+            <h1 className={styles.title}>Welcome to whatsUp!</h1>
+            <h3 className={styles.subtitle}>reactive generators framework</h3>
             <section className={styles.cards}>
               <Card
                 title="Whatsup"
